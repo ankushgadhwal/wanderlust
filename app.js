@@ -51,9 +51,9 @@ const sessionOption = {
   }
 };
 
-app.get("/", (req, res) => {
-  res.send("index working");
-});
+// app.get("/", (req, res) => {
+//   res.send("index working");
+// });
 
 app.use(session(sessionOption));
 app.use(flash());
