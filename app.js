@@ -4,6 +4,8 @@ if (process.env.NODE_ENV != "production") {
 
 const express = require("express");
 const app = express();
+const cors = require("cors");
+app.use(cors());
 const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");
