@@ -69,6 +69,7 @@ const sessionOption = {
 };
 
 app.get("/", (req, res) => {
+  console.log("home page working");  
   res.send("index working");
 });
 
